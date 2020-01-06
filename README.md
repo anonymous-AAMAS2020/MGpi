@@ -1,6 +1,6 @@
 # MGpi:  A Computational Model of Multiagent Group Perception and Interaction
 
-## Synthetic Dataset (Group Layouts)
+## Datasets (Group Layouts)
 https://www.dropbox.com/s/e1rzcbeeu86eh96/interaction_data.zip?dl=0
 
 ## Dependency Installations
@@ -9,7 +9,7 @@ Run ```chmod u+x setup.sh;  ./setup.sh```
 
 ## Simulating Communication Interactions
 This will generate training data for our MGpi Network
-1. Download and extract the Synthetic Dataset linked above 
+1. Download and extract the Datasets linked above 
 2. Run ```source virt_mgpi/bin/activate```. This activates the virtual environment with dependencies installed.
 3. Run ```python simlulate.py```. This imports GroupInteract from sim\_interact.py or sim\_interact\_dyn.py, and simulates group communications.
 
